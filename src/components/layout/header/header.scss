@@ -1,0 +1,57 @@
+.nav {
+    position: sticky;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: red;
+    &__left {
+        svg {
+            width: 120px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        // justify-content: space-between;
+        &__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: #e81711;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        form {
+            width: 700px;
+            background-color: white;
+            display: flex;
+            padding: 5px;
+            height: 55px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            input {
+                outline: none;
+                border: none;
+                flex: 1;
+                font-weight: 600;
+            }
+            button {
+                width: 80px;
+                padding: 1px 8px;
+                border: 1px solid #b2ed50;
+                border-radius: 30px;
+                background-color: #cf6;
+            }
+        }
+
+    }
+}

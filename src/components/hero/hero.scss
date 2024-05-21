@@ -1,0 +1,65 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    &__top {
+        &__left ul {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            font-size: 15px;
+            li {
+                padding: 6px;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                background-color: #f0f4f7;
+            }
+        }
+
+        button {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin-left: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(215, 205, 195);
+        &__desc {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            padding: 0px 70px;
+            h1 {
+                text-align: center;
+                font-size: 36px;
+                width: 100%;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            button {
+                width: 240px;
+                height: 50px;
+                background-color: black;
+                color: white;
+                border: 1px solid transparent;
+                border-radius: 30px;
+            }
+        }
+        &__img img {
+            width: 100%;
+        }
+    }
+}
